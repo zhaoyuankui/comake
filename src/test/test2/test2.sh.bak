@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#adkfasdf
+   ## desc
+#   source 
+
+
+   source    $MYSHELLIB/echoc.sh;
+
+   echoc Red aaa;
+   sh ./inner_test2/inner_test2.sh;

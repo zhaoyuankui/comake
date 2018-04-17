@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# This is a inner test.
+
+. $MYSHELLIB/libui-sh/libui.sh;
+declare -a aaa=(1 2 3 4);
+declare bbb=5;
+check_is_in 5 ${aaa[@]} || echo 'Not in';
